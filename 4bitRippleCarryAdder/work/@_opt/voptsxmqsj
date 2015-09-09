@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lighthead\Desktop\amber\prac
+T_opt
+Z1 V`CRnK:<_HZN[n7^jb7GJT3
+Z2 04 8 4 work FullAdd4 fast 0
+Z3 =1-26db30ee2a2e-55df4ecf-dc-ca8
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+vFullAdd
+Z7 I9dV:Dz6kdi<B7GGW7dA4n2
+Z8 Vi7>ba8MM]8PeaX^;QE99V2
+Z9 dC:\Users\lighthead\Desktop\amber\4bitRippleCarryAdder
+Z10 w1440697904
+Z11 8C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v
+Z12 FC:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v
+L0 1
+Z13 OE;L;6.5c;42
+r1
+31
+Z14 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z15 n@full@add
+Z16 !s102 -nocovercells
+Z17 !s100 Q>L=Uc1M3bb@1b38SZR3?2
+!s85 0
+vFullAdd4
+Z18 IOYGoXhRCDL7hBFm>mBdEm1
+Z19 VcSiUL]oS4zXGH?7cjM]>J0
+R9
+Z20 w1440698034
+Z21 8C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/tbFullAdd4.v
+Z22 FC:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/tbFullAdd4.v
+L0 2
+R13
+r1
+31
+R16
+R14
+Z23 n@full@add4
+Z24 !s100 D8;zA@]fgHH<X5:ediCBb3
+!s85 0

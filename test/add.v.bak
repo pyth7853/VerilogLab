@@ -1,0 +1,13 @@
+module add(input clk,input a,input b,output c);
+  
+  
+  always@*
+  begin
+    c=a+b;
+  end
+  
+  always@(posedge clk)
+  begin 
+  end
+  
+endmodule

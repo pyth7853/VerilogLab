@@ -1,0 +1,72 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lighthead\Desktop\amber\test
+T_opt
+Z1 VSTO?z6E1S?F7RIP3G@fzh1
+Z2 04 2 4 work tb fast 0
+Z3 =1-26db30ee2a2e-55df2c51-9d-f90
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+T_opt1
+Z7 VL9N0CN6BLdVb`?2k9KMcR3
+Z8 04 7 4 work FullAdd fast 0
+Z9 =1-26db30ee2a2e-55df2ef0-1f2-244c
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 V>6TlHMQA:0`;OH66H9?KR0
+Z12 04 5 4 work tbadd fast 0
+Z13 =1-26db30ee2a2e-55df2e1c-3b3-2450
+R4
+Z14 n@_opt2
+R6
+vFullAdd
+Z15 I9dV:Dz6kdi<B7GGW7dA4n2
+Z16 Vi7>ba8MM]8PeaX^;QE99V2
+Z17 dC:\Users\lighthead\Desktop\amber\prac
+Z18 w1440689890
+Z19 8C:/Users/lighthead/Desktop/amber/prac/add.v
+Z20 FC:/Users/lighthead/Desktop/amber/prac/add.v
+L0 1
+Z21 OE;L;6.5c;42
+r1
+31
+Z22 !s102 -nocovercells
+Z23 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z24 n@full@add
+Z25 !s100 Q>L=Uc1M3bb@1b38SZR3?2
+!s85 0
+vtb
+Z26 I_dNh[d8dRlN<a]ZTzXYa60
+Z27 VV@Xn<HnSRM[I5c1?BH]3a3
+R17
+Z28 w1440688991
+Z29 8C:/Users/lighthead/Desktop/amber/prac/tbadd.v
+Z30 FC:/Users/lighthead/Desktop/amber/prac/tbadd.v
+L0 1
+R21
+r1
+31
+R22
+R23
+Z31 !s100 dG5kf3Wc?AfWn;[__i[S_0
+!s85 0
+vtbadd
+Z32 IFG:7CcbBcGT6dFj6b@Ma>0
+Z33 Vj@O=mmN`6VI7a1R3b@]XK1
+R17
+Z34 w1440689659
+R29
+R30
+L0 1
+R21
+r1
+31
+R22
+R23
+Z35 !s100 WT_1Af1nTYWlkENSTNOL<2
+!s85 0

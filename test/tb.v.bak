@@ -1,0 +1,17 @@
+module tb();
+  
+  reg clk;
+  reg a;
+  reg b;
+  wire c;
+  initial
+  begin
+    clk=1'b0;
+    a=1'b0;
+    b=1'b0;
+    forever
+    #50 clk=~clk;
+  end
+  
+  add my_ad(clk,a,b,c);
+endmodule

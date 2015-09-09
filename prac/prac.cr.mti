@@ -1,0 +1,15 @@
+C:/Users/lighthead/Desktop/amber/prac/tbadd.v {1 {vlog -work work -vopt -nocovercells C:/Users/lighthead/Desktop/amber/prac/tbadd.v
+Model Technology ModelSim SE vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module tbadd
+
+Top level modules:
+	tbadd
+
+} {} {}} C:/Users/lighthead/Desktop/amber/prac/add.v {1 {vlog -work work -vopt -nocovercells C:/Users/lighthead/Desktop/amber/prac/add.v
+Model Technology ModelSim SE vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module FullAdd
+
+Top level modules:
+	FullAdd
+
+} {} {}}

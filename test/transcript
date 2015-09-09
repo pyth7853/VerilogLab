@@ -1,0 +1,47 @@
+# Reading C:/modeltech_6.5c/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5c Aug 27 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/lighthead/Desktop/amber/test/test.mpf 
+# Loading project test
+# Compile of add.v failed with 1 errors.
+# Compile of add.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of add.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of add.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of add.v failed with 1 errors.
+# Compile of tb.v was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of add.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.tb
+# vsim -gui -novopt work.tb 
+# Refreshing C:\Users\lighthead\Desktop\amber\test\work.tb
+# Loading work.tb
+# Refreshing C:\Users\lighthead\Desktop\amber\test\work.add
+# Loading work.add
+add wave sim:/tb/*
+run
+run -all
+# Break key hit 
+# Break in Module tb at C:/Users/lighthead/Desktop/amber/test/tb.v line 13
+# Compile of tb.v was successful.
+restart
+# Refreshing C:\Users\lighthead\Desktop\amber\test\work.tb
+# Loading work.tb
+run -all
+# Break key hit 
+# Break in Module tb at C:/Users/lighthead/Desktop/amber/test/tb.v line 13

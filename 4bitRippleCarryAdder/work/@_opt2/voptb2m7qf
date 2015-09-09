@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lighthead\Desktop\amber\prac
+T_opt
+Z1 V`CRnK:<_HZN[n7^jb7GJT3
+Z2 04 8 4 work FullAdd4 fast 0
+Z3 =1-26db30ee2a2e-55df4ecf-dc-ca8
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+T_opt1
+Z7 Vn9_b_P;aBGmFHm0c6C^Pm2
+Z8 04 7 4 work FullAdd fast 0
+Z9 =1-26db30ee2a2e-55e1bc0b-3b3-c98
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 V0NYUPk?aaMQfUW19kkJD70
+R2
+R8
+Z12 =2-26db30ee2a2e-55e1d0bb-20a-1f00
+R4
+Z13 n@_opt2
+R6
+vFullAdd
+Z14 IeL6:bZzJ9Pl6SJZ2QnzcP2
+Z15 VfB9dnhmQ^2cN5<5iT8jOf0
+Z16 dC:\Users\lighthead\Desktop\amber\4bitRippleCarryAdder
+Z17 w1440862063
+Z18 8C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v
+Z19 FC:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v
+L0 1
+Z20 OE;L;6.5c;42
+r1
+31
+Z21 !s102 -nocovercells
+Z22 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z23 n@full@add
+Z24 !s100 bn?nnLHST;kAjQ7iVGmeE3
+!s85 0
+vFullAdd4
+Z25 I<jSU@0Yk23Cm2;mFld0Wm2
+Z26 VinUEW=La<JZPCX<4i5A9B0
+R16
+Z27 w1440862381
+Z28 8C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/tbFullAdd4.v
+Z29 FC:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/tbFullAdd4.v
+L0 1
+R20
+r1
+31
+R21
+R22
+Z30 n@full@add4
+Z31 !s100 6OA:ZT]7]4OOkYEFW@=5f3
+!s85 0

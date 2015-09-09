@@ -1,0 +1,36 @@
+module tbBitWise();
+reg inputBus;
+wire even,odd,allOne;
+initial 
+begin 
+inputBus = 8'b00000000;
+end
+
+initial
+begin
+#500
+inputBus = 8'b00000001;
+#1000
+inputBus[0] = 0;
+inputBus[1] = 1;
+inputBus[2] = 0;
+inputBus[3] = 0;
+inputBus[4] = 1;
+inputBus[5] = 0;
+inputBus[6] = 0;
+inputBus[7] = 1;
+#1500
+inputBus[0] = 0;
+inputBus[1] = 1;
+inputBus[2] = 1;
+inputBus[3] = 0;
+inputBus[4] = 1;
+inputBus[5] = 0;
+inputBus[6] = 0;
+inputBus[7] = 1;
+
+#2000
+inputBus = 8'b00001111;
+end
+BitWise myBitWise(inputBus,even,odd,allOne);
+endmodule

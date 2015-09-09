@@ -1,0 +1,148 @@
+# Reading C:/modeltech_6.5c/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5c Aug 27 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/lighthead/Desktop/amber/prac/prac.mpf 
+# Loading project prac
+# Compile of add.v was successful.
+# Compile of tbadd.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Load canceled
+# Optimization canceled
+# Load canceled
+vsim -voptargs=+acc work.tb
+# vsim work.tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+vsim work.tb
+# vsim work.tb 
+# Loading work.tb(fast)
+vsim work.FullAdd
+# vsim work.FullAdd 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FullAdd(fast)
+add wave \
+{sim:/FullAdd/a } \
+{sim:/FullAdd/b } \
+{sim:/FullAdd/CarryIn } \
+{sim:/FullAdd/Sum } \
+{sim:/FullAdd/CarryOut } 
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of add.v was successful.
+# Compile of tbadd.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.tbadd
+# vsim work.tbadd 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tbadd(fast)
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim -voptargs=+acc work.FullAdd
+# vsim work.FullAdd 
+# Loading work.FullAdd(fast)
+add wave \
+{sim:/FullAdd/a } \
+{sim:/FullAdd/b } \
+{sim:/FullAdd/CarryIn } \
+{sim:/FullAdd/Sum } \
+{sim:/FullAdd/CarryOut } 
+run
+run
+run
+quit -sim
+# Compile of add.v was successful.
+vsim -voptargs=+acc work.FullAdd
+# vsim work.FullAdd 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FullAdd(fast)
+add wave \
+{sim:/FullAdd/a } \
+{sim:/FullAdd/b } \
+{sim:/FullAdd/CarryIn } \
+{sim:/FullAdd/Sum } \
+{sim:/FullAdd/CarryOut } 
+run
+run
+run
+run
+run
+quit -sim
+# Compile of tbadd.v was successful.
+# Compile of add.v was successful.
+# Compile of tbadd.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.tbadd
+# vsim work.tbadd 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: C:/Users/lighthead/Desktop/amber/prac/tbadd.v(32): Module 'add' is not defined.
+# Optimization failed
+# Error loading design
+vsim -voptargs=+acc work.tbadd
+# vsim work.tbadd 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: C:/Users/lighthead/Desktop/amber/prac/tbadd.v(32): Module 'add' is not defined.
+# Optimization failed
+# Error loading design
+vsim -novopt work.tbadd
+# vsim -novopt work.tbadd 
+# Refreshing C:\Users\lighthead\Desktop\amber\prac\work.tbadd
+# Loading work.tbadd
+# ** Error: (vsim-3033) C:/Users/lighthead/Desktop/amber/prac/tbadd.v(32): Instantiation of 'add' failed. The design unit was not found.
+#         Region: /tbadd
+#         Searched libraries:
+#             C:\Users\lighthead\Desktop\amber\prac\work
+# Error loading design
+vsim -voptargs=+acc work.tb
+# vsim work.tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+quit -sim
+vsim -voptargs=+acc work.FullAdd
+# vsim work.FullAdd 
+# Loading work.FullAdd(fast)
+add wave \
+{sim:/FullAdd/a } \
+{sim:/FullAdd/b } \
+{sim:/FullAdd/CarryIn } \
+{sim:/FullAdd/CarryOut } \
+{sim:/FullAdd/Sum } 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim -voptargs=+acc work.tbadd
+# vsim work.tbadd 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: C:/Users/lighthead/Desktop/amber/prac/tbadd.v(32): Module 'add' is not defined.
+# Optimization failed
+# Error loading design

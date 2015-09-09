@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lighthead\Desktop\amber\ppp
+T_opt
+Z1 VlVAQX]edVdJjGI2_6m=CO1
+Z2 04 7 4 work FullAdd fast 0
+Z3 =1-26db30ee2a2e-55df30fd-3cf-2678
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+T_opt1
+Z7 VKS<=SB7;_[_ikfMUICZ8U2
+Z8 04 5 4 work tbadd fast 0
+Z9 =1-26db30ee2a2e-55df3118-55-2494
+R4
+Z10 n@_opt1
+R6
+vFullAdd
+Z11 ICN9FA^Cg^KfL0IBI51DV:2
+Z12 Vi7>ba8MM]8PeaX^;QE99V2
+Z13 w1440689890
+Z14 8C:/Users/lighthead/Desktop/amber/ppp/add.v
+Z15 FC:/Users/lighthead/Desktop/amber/ppp/add.v
+L0 1
+Z16 OE;L;6.5c;42
+r1
+31
+Z17 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z18 n@full@add
+Z19 !s100 Q>L=Uc1M3bb@1b38SZR3?2
+!s85 0
+vtbadd
+Z20 Ibzn_KEWaEITEinH3R_L700
+Z21 Vj@O=mmN`6VI7a1R3b@]XK1
+Z22 w1440690406
+Z23 8C:/Users/lighthead/Desktop/amber/ppp/tbadd.v
+Z24 FC:/Users/lighthead/Desktop/amber/ppp/tbadd.v
+L0 1
+R16
+r1
+31
+R17
+Z25 !s100 HDHG?CT<6SPEmBE=E4n=K3
+!s85 0

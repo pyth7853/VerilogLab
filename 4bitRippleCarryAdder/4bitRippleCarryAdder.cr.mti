@@ -1,0 +1,8 @@
+C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v {1 {vlog -work work -vopt -nocovercells C:/Users/lighthead/Desktop/amber/4bitRippleCarryAdder/FullAdd.v
+Model Technology ModelSim SE vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module FullAdd
+
+Top level modules:
+	FullAdd
+
+} {} {}}
