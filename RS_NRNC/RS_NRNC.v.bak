@@ -1,0 +1,22 @@
+module RS_NRNC(Reset,Clock,Reg_In,Reg_Out4);
+
+input Reset,Clock;
+input [3:0]Reg_In;
+output [3:0]Reg_Out4;
+reg [3:0]Reg_Out4;
+
+  always @(negedge Clock)
+  begin
+    if(!Reset)
+      Reg_Out4[0] = 0;
+      Reg_Out4[1] = 0;
+      Reg_Out4[2] = 0;
+      Reg_Out4[3] = 0;
+    else
+      Reg_Out4[0] = Reg_In[0];
+      Reg_Out4[1] = Reg_In[1];
+      Reg_Out4[2] = Reg_In[2];
+      Reg_Out4[3] = Reg_In[3];
+      
+  end
+endmodule
